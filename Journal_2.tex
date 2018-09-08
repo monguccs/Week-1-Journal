@@ -1,0 +1,97 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{hyperref} 
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Journal 2, CS6000}
+
+
+\author{\IEEEauthorblockN{Mong Sim}
+\IEEEauthorblockA{\textit{Computer Science Department} \\
+\textit{University of Colocrado Colorado Springs}\\
+Colorado Springs, USA\\
+msim@uccs.edu}
+
+}
+
+\maketitle
+
+
+
+\section{Learning Process}
+
+My paper search was from ACM and IEEE sites. I set the latest date first since I am more interested in the recent papers. My paper search is much broader because I am interested in fault tolerance on both software and hardware.  Most of the articles I found by looking at the title and reading the abstract to decide if the paper is worth further reading.  One inconvenience on the website is that it does not remember which document we select and on return, it always goes back to the first document of that page. Trying to find a specific paper without knowing the title can be very different to find if one is going through these sites in sequential order. One other thing I did which I find it very useful is to rename the file with the research title.
+
+
+
+
+
+\section{Raw Notes}
+
+All the papers  
+\cite{"P1"}  \cite{"P2"} \cite{"P4"} \cite{"P5"} \cite{"P6"} \cite{"P7"} \cite{"P8"} \cite{"P9"} \cite{"P10"} \cite{"P11"} 
+\cite{"P12"} \cite{"P13"} \cite{"P14"} \cite{"P16"} \cite{"P17"} \cite{"P18"} \cite{"P19"} \cite{"P22"} \cite{"P23"} \cite{"P24"} 
+\cite{"P25"} \cite{"P26"} \cite{"P27"} \cite{"P28"} \cite{"P29"} \cite{"P30"} \cite{"P32"} \cite{"P33"} \cite{"P34"} \cite{"P35"} 
+\cite{"P36"} \cite{"P37"} \cite{"P38"} \cite{"P39"} \cite{"P40"} \cite{"P41"} \cite{"P42"} \cite{"P43"} \cite{"P44"} \cite{"P45"} 
+\cite{"P46"} \cite{"P47"} \cite{"P48"} \cite{"P49"} \cite{"P50"} 
+
+ Hardware-Assisted Fault Tolerance \cite{"P7"} utilizes instruction-level redundancy for fault detection and hardware transactional memory for fault recovery. Issues are amplified in the new processor architectures that are continuously boosting performance with higher circuit density using ever-shrinking transistor sizes. A Fault-Tolerant Non-Volatile Main Memory File System \cite{"P26"} proposes solutions for the unique challenges in adding fault tolerance to an NVMM file system. Atomic updates to implement features such as complex atomic data and metadata updates, but doing so requires different data structures and algorithms than block-based file systems have employed. Let's shock our IoT's heart: ARMv7-M under (fault) attacks \cite{"P33"} explore howElectromagnetic fault injection (EMFI) can be used to create vulnerabilities in sound software.  Modulo operations are utilized to reduce the hardware overhead. The proposed method can detect faults with more than 70\% accuracy and more than 87\% fault coverage within an acceptable test time. A 1GHz Fault Tolerant Processor with Dynamic Lockstep and Self-recovering Cache for ADAS SoC Complying with ISO26262 in Automotive Electronics \cite{"P40"} present a processing platform that implements DMR with separate clock and power sources. Fault tolerant processor contains three key features: 1) dynamic lockstep (DLS) with separate clock and power sources to reduce dependent failures and have the high performance, 2) the cache with self-recovering function to reduce transient faults, 3) reconfigurable function to reduce permanent faults. TMR Group Coding Method for Optimized SEU and MBU Tolerant Memory Design \cite{"P43"} proposes a memory rich micro-coded processor. Triple Module Redundancy (TMR) and Error Correcting Code (ECC) are two commonly used fault tolerant approaches. TMR can ensure the right output in the case of single module fault, but it requires high hardware redundancy. The hardware cost for ECC is less while its ability to detect and correct soft errors is limited. Processor checkpoint recovery for transient faults in critical applications  \cite{"P44"} an approach to implement checkpoint recovery on FPGA with application-level transparency. Dual Modular Redundancy (DMR) and CR configuration is used in order to find the optimal checkpoint selection. An integrated design environment of fault tolerant processors with flexible HW/SW solutions for versatile performance/cost/coverage tradeoffs \cite{"P48"} provides for the designer to select the options and the IDE automatically generates the hardware Verilog code and the modified embedded software. It injects faults by modifying the C code or assembly code. EDFI analyzes and duplicates the control flow to inject the faults.
+A fault-tolerant real-time microcontroller with multiprocessor architecture  \cite{"P50"} proposes working in TMR and some spare processors. Leverage the hardware redundancy of a
+multiprocessor architecture, doing work together three processors at TMR configuration and using the remaining processors as spare parts to tolerate the permanent faults.
+ 
+
+
+
+
+
+
+%%%%%%% -- PAPER CONTENT ENDS -- %%%%%%%%
+
+
+%%%%%%%%% -- BIB STYLE AND FILE -- %%%%%%%%
+\bibliographystyle{ieeetr}
+\bibliography{ref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
